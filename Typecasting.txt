@@ -1,0 +1,42 @@
+ 
+namespace first
+{
+    class Typecasting 
+    {
+        static void Main(string[] args)
+        {
+
+            //Type Casting
+            //There  are two types of type casting 
+            // 1. implict Casting 
+
+            // char to int to long to float to double.
+
+            //2. Explict Casting 
+            //int x = (int) 3.5;
+          /*  double x1 = (double) 3.5;
+            Console.WriteLine(x1); */
+
+          /*  int x = 3;
+            double y = x;
+           // int z = y;
+           // char z = 'y';  // output y 
+            int  z = 'y';   //output  121 hoga  jo ki y ki ASCII
+            Console.WriteLine(x);
+            //Console.WriteLine(x1);
+            Console.WriteLine(y);
+            Console.WriteLine(z); */
+
+            // Typecasting using method 
+            // convert double to int 
+          /*  float varr = Convert.ToInt32(3.55);
+            string xx = "34 is amazing ";
+             Console.WriteLine(varr);
+           Console.ReadLine();
+            //  Console.ReadKey(); */
+
+            
+        }
+    }
+}
+
