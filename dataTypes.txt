@@ -1,0 +1,34 @@
+using System;
+
+namespace first 
+{
+    class interroduction
+    {
+        static void Main(string[] args)
+        {
+            //  Single line comment. my interroduction 
+            /* This 
+              is
+             multiline comment*/
+            /* 
+            Integer - int anand;  // 4  byte  
+             Long - long anand; 8 bytes
+            Floating point number - float that;  // 4 byte
+            Double - double anand; 8 bytes
+            character - char a= 'A'; // 2 byte 
+            Boolean  bool isGreat = true; // 1 bit 
+            String -string inp= "Anand Raj Bind " // 2 byte per character
+             */
+
+            string inp = Console.ReadLine();
+            Console.WriteLine(inp);
+            /* int age = 21;
+            Console.WriteLine("Name: Anand Raj Bind ");
+            Console.Write("Roll No. 2158017");
+            Console.WriteLine("Enrollment No. PU21/100271");
+            Console.WriteLine("DOB is: " + age); */
+            Console.ReadLine();
+;        }
+    }
+ 
+}
