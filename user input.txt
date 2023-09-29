@@ -1,0 +1,22 @@
+ 
+namespace first
+{
+    class UserInput
+    {
+        static void Main(string[] args)
+        {
+
+         
+            // User  input 
+            Console.WriteLine("Enter Your Name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello "+ name);
+
+            Console.WriteLine("How many candies do you want ? ");
+            string can= Console.ReadLine();
+            Console.WriteLine("you will get 4 more candies: " + (Convert.ToInt32(can)+ 4) );
+            Console.ReadLine();
+        }
+    }
+}
+
