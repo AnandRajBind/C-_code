@@ -1,0 +1,88 @@
+using System;
+
+ 
+
+class Operator
+{
+    public static void Main(String[] args)
+    {
+        // arithmatic operator 
+        int a = 5; 
+        int b = 15;
+
+        Console.WriteLine("The Value of a equal  is: " + a);
+        Console.WriteLine("The Value of b equal  is: " + b );
+
+
+        Console.WriteLine("The Value of a+ b is: " + ( a + b));
+        Console.WriteLine("The Value of a -  b is: "  +(a - b));
+        Console.WriteLine("The Value of a / b is: "  +(a / b));
+        Console.WriteLine("The Value of a * b is: "  +(a * b));
+        Console.WriteLine("The Value of a % b is: "  +(a  % b));
+
+        // Assignmet operator
+        int x = 4;
+        int y = x;
+       // y += 4;
+       // y -= 4;
+        y *= 4;
+      //  y /= 4;
+        Console.WriteLine(y);
+
+        // logical operator 
+
+        // logical and operator 
+        Console.WriteLine(true && false);
+        Console.WriteLine(false && false);
+        Console.WriteLine(true && true);
+
+
+        // logical or  operator 
+        Console.WriteLine(true || false);
+        Console.WriteLine(false || false);
+        Console.WriteLine(true || true);
+
+
+        // logical not   operator 
+        Console.WriteLine(!true);
+        Console.WriteLine(!false);
+
+        //Comprasion Operator 
+        Console.WriteLine("Comprasion Operator ");
+    Console.WriteLine(354> 500);
+        Console.WriteLine(354 < 500);
+        Console.WriteLine(354 >= 500);
+         Console.WriteLine(354 <= 500);
+        Console.WriteLine(354 != 500);
+        Console.WriteLine(354 == 500);
+
+        // Math class 
+
+
+        Console.WriteLine("***************************************************************************************************"); 
+
+
+        int a1 = Math.Max(15, 85);
+        int b1 = Math.Min(15, 85);
+        int c = Math.Abs(15);
+       double d = Math.Sqrt(5);
+
+        Console.WriteLine(a1);
+        Console.WriteLine(b1);
+        Console.WriteLine(c);
+        Console.WriteLine(d);
+        string hello = " Hii baby";
+
+        Console.WriteLine(hello + "You are very nice: ");
+        Console.WriteLine(string.Concat(hello, "You are very nice: "));
+        Console.WriteLine(hello.ToLower());
+        Console.WriteLine(hello.ToUpper());
+
+
+
+        //Console.ReadLine();s
+        // Console.ReadKey();
+
+
+    }
+}
