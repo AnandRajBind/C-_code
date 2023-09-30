@@ -1,0 +1,43 @@
+using System;
+ 
+class raiting
+{
+
+     static void Main(String[] args)
+    {
+        Console.WriteLine("Enter Your Rating: ");
+
+        int raiting = Convert.ToInt32(Console.ReadLine());
+
+        switch (raiting) {
+            case 1:
+                Console.WriteLine("Your Raiting is: 1 Star * ");
+                break;
+            case 2:
+                Console.WriteLine("Your Raiting is: 2  Star  * *");
+
+                break;
+
+            case 3:
+                Console.WriteLine("Your Raiting is: 3 Star * * *");
+                break;
+
+            case 4:
+                Console.WriteLine("Your Raiting is: 4 star * * * *");
+                break;
+
+            case 5:
+                Console.WriteLine("Your Raiting is: 5 star * * * * * ");
+                break;
+
+            default:
+            Console.WriteLine("Ivalid raiting");
+
+                break;
+    }
+
+
+}
+}
+
+ 
