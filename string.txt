@@ -1,0 +1,45 @@
+using System;
+
+ 
+
+class string_class
+{
+    public static void Main(String[] args)
+    {
+
+        string hello = " Hii baby";
+
+        Console.WriteLine(hello + "You are very nice: ");
+        Console.WriteLine(string.Concat(hello, "You are very nice: "));
+        Console.WriteLine(hello.ToLower());
+        Console.WriteLine(hello.ToUpper());
+
+        // string interpollation********************************************************************************
+   
+     /*
+         Console.Write("Enter Your name: ");
+        string name = Console.ReadLine();
+        Console.Write("Enter the no of Candies: ");
+        string candies = Console.ReadLine();
+        Console.WriteLine($" Your Name is: {name} You will get {candies} candies ");
+         
+
+        */
+
+
+        // Access the string character **************************************************************************
+
+        string hello = "Hello baby How are you ";
+        Console.WriteLine(hello[1]);
+       // string method
+        Console.WriteLine(hello.IndexOf("baby"));
+        Console.WriteLine(hello.Substring(10));
+        Console.WriteLine("This is Escape sequence \" character ");
+        Console.WriteLine("This is Escape sequence  character  \n for new line  ");
+        Console.WriteLine("This is Escape sequence character \t for tab  ");
+
+        //Console.ReadLine();s
+        Console.ReadKey();
+
+    }
+}
