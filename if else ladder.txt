@@ -1,0 +1,45 @@
+using System;
+
+
+class if_else
+{
+    public static void Main(String[] args)
+    {
+        
+        // Decision Making ***************************************************
+
+        Console.WriteLine("Enter your age ");
+       string ageStr = Console.ReadLine();
+        int age = Convert.ToInt32(ageStr);
+        if (age < 2)
+        {
+            Console.WriteLine("You are children ");
+
+        }
+        else if (age < 10)
+        {
+            Console.WriteLine("You are complete high  ");
+
+        }
+        else if (age < 18)
+        {
+            Console.WriteLine("You are below 18  ");
+
+        }
+
+        else if (age < 75)
+        {
+            Console.WriteLine("You can   drive because your age is less than 75  ");
+
+        }
+        else
+        {
+            Console.WriteLine("You Can  not Drive ");
+
+        }
+        //Console.ReadLine();s
+        Console.ReadKey();
+
+
+    }
+}
