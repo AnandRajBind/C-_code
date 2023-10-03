@@ -1,0 +1,39 @@
+// find  Largest valu between three value 
+
+using System;
+
+class Greater_Value
+{
+    public static void Main(String[] args)
+    {
+
+        int a = 2,b = 15, c = 12;
+        if (a > b)
+        {
+            if (a > c)
+            {
+                Console.WriteLine("a is largest value ");
+            }
+            else
+            {
+                Console.WriteLine("C is largest value ");
+            }
+        }
+        else
+        {
+            if (c > b)
+            {
+
+                Console.WriteLine("c is argest value ");
+
+            }
+            else { 
+                Console.WriteLine(" b is largest value ");
+
+            }
+            Console.ReadKey();
+        }
+    
+    }
+
+}
