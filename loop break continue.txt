@@ -1,0 +1,68 @@
+using System;
+using System.Linq.Expressions;
+
+class Operator
+{
+    public static void Main(String[] args)
+    {
+
+        // swich case*****************************************************
+
+        int age_ = 78;
+
+        switch(age_){
+
+            case 15:
+                Console.WriteLine("please Wait for an year ");
+                break;
+            
+            case 20:
+                Console.WriteLine("you are 20 year ");
+                break;
+
+            default:
+                Console.WriteLine("You can Enjoy");
+                break;
+        }
+
+        //  loop in C sharp 
+        // while loop
+
+        int j = 0;
+        while (j < 5)
+        {
+            Console.WriteLine(j+1);
+            j++;
+
+        }
+        // do while loop
+
+        do
+        {
+            Console.WriteLine(j);
+            j++;
+
+        } while (j < 5) ;
+
+        //for loop
+        for(int i=0; i < 5; i++)
+        {
+            Console.WriteLine(i+1);
+        }
+
+        // Break Continue 
+        for (int i = 0; i < 5; i++)
+        {
+            if (i == 0)
+            {
+                continue;
+            }
+            Console.WriteLine(i + 1);
+            break;
+        }
+
+        //Console.ReadLine();s
+        Console.ReadKey();
+
+    }
+}
