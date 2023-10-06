@@ -1,0 +1,44 @@
+using System;
+using System.Linq.Expressions;
+
+class Operator
+{
+
+    static float Average(int a, int b, int c)
+    {
+        float sum = a + b + c;
+
+        return sum / 3;
+    }
+
+    static float Average(int a, int b)
+    {
+
+        return (a + b) / 2;
+    }
+ 
+    public static void Main(String[] args)
+    {
+         
+        // method or function *********************************************************************
+
+         void greet(string name)
+        {
+            Console.WriteLine(" Good Night "+ name );
+        }
+        greet("Anand");
+        greet("Raj Bind");
+
+      
+        float avg=Average(5, 3, 6);
+        Console.WriteLine("Average of a, b and c is: " +avg);
+        Console.WriteLine("Average of a, b and c is: " + Average(3,3,3));
+        Console.WriteLine("Average of a and b is: " + Average(3,3));
+
+       
+
+        //Console.ReadLine();s
+        Console.ReadKey();
+
+    }
+}
